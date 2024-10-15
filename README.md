@@ -10,17 +10,17 @@ This web app generate and scan a secure QR Code with help of an secure encryptio
 
 Pictures:
 1. Main Page
-[main.png](examples/main.png)
+[main.png](/examples/main.png)
 
 2. Generator Page
-[generate.png](examples/generate.png)
+[generate.png](/examples/generate.png)
 
 3. scan of valid Guest QR Code
-[confirmation.png](examples/confirmation.png)
+[confirmation.png](/examples/confirmation.png)
 
 4. scan of already scanned valid Guest QR Code
-[confirmed.png](example/confirmed.png)
+[confirmed.png](/example/confirmed.png)
 
 5. scan of not valid Guest QR Code
-[confirmed.png](example/not-valid.png)
+[confirmed.png](/example/not-valid.png)
 
