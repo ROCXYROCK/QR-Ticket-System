@@ -1,29 +1,27 @@
-# QR-Ticket-System
+# QR-Ticket System
 
-## Funcionality
-This web app generate and scan a secure QR Code with help of an secure encryption algorithm "aes-256-cbc".
-- It generates out of the Mail adress an Human ununderstandable Text which will be coverted to QR Code with help of the js library "qr-scanner".
-- The data will be stored in a mongoDatabase to avoid loss of the data with the following structure:
-| email | name | participated |
-|-------|------|--------------|
-| asd@gmail.com | Max Mustermann | true |
+## Functionality
+This web application generates and scans secure QR codes using a secure encryption algorithm called "aes-256-cbc".
 
+- **Generation**: From the email address, an unintelligible text is created, which is then converted into a QR code using the JavaScript library "qr-scanner".
+- **Database**: The information is stored in a MongoDB to prevent data loss. The data structure is as follows:
 
+| Email             | Name           | Participated    |
+|-------------------|----------------|------------------|
+| asd@gmail.com     | Max Mustermann  | true             |
 
+## Images
+1. **Main Page**
+   ![Main Page](examples/main.png)
 
-Pictures:
-1. Main Page
-![main.png](examples/main.png)
+2. **Generator Page**
+   ![Generator](examples/generate.png)
 
-2. Generator Page
-![generate.png](examples/generate.png)
+3. **Scan of Valid Guest QR Code**
+   ![Confirmation](examples/confirmation.png)
 
-3. scan of valid Guest QR Code
-![confirmation.png](examples/confirmation.png)
+4. **Scan of Already Scanned Valid Guest QR Code**
+   ![Already Confirmed](examples/confirmed.png)
 
-4. scan of already scanned valid Guest QR Code
-![confirmed.png](example/confirmed.png)
-
-5. scan of not valid Guest QR Code
-![confirmed.png](example/not-valid.png)
-
+5. **Scan of Invalid Guest QR Code**
+   ![Invalid](examples/not-valid.png)
