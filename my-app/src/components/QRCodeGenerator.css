@@ -1,0 +1,68 @@
+.qr-generator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Hintergrundfarbe */
+  }
+  
+  .qr-generator-card {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    background-color: #ffffff; /* Kartenhintergrundfarbe */
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten */
+  }
+  
+  .qr-generator-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007ad9; /* Button-Hintergrundfarbe */
+    border: none;
+    color: #ffffff; /* Button-Textfarbe */
+    border-radius: 4px; /* Abgerundete Ecken */
+    cursor: pointer;
+  }
+  
+  .qr-generator-button:hover {
+    background-color: #005bb5; /* Button-Hintergrundfarbe beim Hover */
+  }
+  
+  .qr-generator-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007ad9;
+  }
+  
+  .qr-code-image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #007ad9; /* Rahmenfarbe */
+    border-radius: 4px; /* Abgerundete Ecken */
+  }
+  
+  /* Media Queries für unterschiedliche Bildschirmgrößen */
+  @media (max-width: 600px) {
+    .qr-generator-card {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .qr-generator-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .qr-generator-message {
+      font-size: 16px;
+    }
+  
+    .qr-code-image {
+      max-width: 100%;
+    }
+  }

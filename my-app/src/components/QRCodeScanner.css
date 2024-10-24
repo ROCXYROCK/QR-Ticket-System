@@ -1,0 +1,65 @@
+.qr-scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Hintergrundfarbe */
+  }
+  
+  .qr-scanner-card {
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    background-color: #ffffff; /* Kartenhintergrundfarbe */
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten */
+  }
+  
+  .qr-scanner-video {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #007ad9; /* Rahmenfarbe */
+    border-radius: 4px; /* Abgerundete Ecken */
+  }
+  
+  .qr-scanner-output {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .qr-scanner-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007ad9; /* Button-Hintergrundfarbe */
+    border: none;
+    color: #ffffff; /* Button-Textfarbe */
+    border-radius: 4px; /* Abgerundete Ecken */
+    cursor: pointer;
+  }
+  
+  .qr-scanner-button:hover {
+    background-color: #005bb5; /* Button-Hintergrundfarbe beim Hover */
+  }
+  
+  /* Media Queries für unterschiedliche Bildschirmgrößen */
+  @media (max-width: 600px) {
+    .qr-scanner-card {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .qr-scanner-video {
+      max-width: 100%;
+    }
+  
+    .qr-scanner-output {
+      font-size: 18px;
+    }
+  
+    .qr-scanner-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
